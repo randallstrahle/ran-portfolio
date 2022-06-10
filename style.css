@@ -1,0 +1,77 @@
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: rgb(12, 18, 34);
+    color: rgb(201, 215, 227);
+}
+
+.nav-container {
+display: flex;
+justify-content: flex-end;
+background-color: rgb(12, 18, 34);
+}
+
+nav a {
+    margin:10px;
+    color: rgb(201, 215, 227);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover{
+    color: rgb(44, 181, 242)
+}
+
+.self-photo{
+    max-width: 100px;
+    height:auto;
+    border-radius: 20px;
+}
+.introduction {
+    color: rgb(201, 215, 227);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom:100px;
+}
+
+.intro-header {
+    font-weight: bold;
+    font-size: 50px;
+    margin: 10px;
+}
+
+.intro-body {
+    font-size: 24px;
+}
+
+.description {
+    color: rgb(201, 215, 227);
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.contact-info a:hover{
+    color: rgb(44, 181, 242)
+}
+
+.contact-form {
+
+}
+
+.contact a {
+    text-decoration: none;
+    margin:10px;
+    color: rgb(201, 215, 227);
+    font-weight: bold;
+}
+
+footer {
+    
+}
